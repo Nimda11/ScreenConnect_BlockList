@@ -13,7 +13,7 @@ Powershell Core 7
 * no additional modules required
 * write access to a directory to save the blocklist
 
-## usage
+## Usage
 the script creates a blocklist of IP addresses, one on each line.\
 the script can read an allowlist of ip addresses, one on each line.
 
