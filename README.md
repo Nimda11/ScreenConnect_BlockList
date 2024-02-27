@@ -6,8 +6,9 @@ This script ONLY creates a list of IP addresses, it does not do any sort of bloc
 It does not what user source generated the invalid login, meaning it will block login attempts from SAML, LDAP, or Internal.
 
 ## Prerequisites
-sqlite3 for querying the database: [link](https://www.sqlite.org/download.html "https://www.sqlite.org/download.html")
-* save somewhere with PATH (or append add a new PATH)
+sqlite3 for querying the database: [link](https://www.sqlite.org/download.html "https://www.sqlite.org/download.html")\
+* save somewhere with PATH (or append add a new PATH)\
+
 Powershell Core 7
 * in theory this is crossplatform
 * no additional modules required
