@@ -21,5 +21,5 @@ scriptname.ps1 -DatabasePath <Security.db path> -BlockListPath <where should the
 
 example
 ```powershell
-blocklist.ps1 -databasepath C:\CWC\App_Data\Security.db -blocklistpath "c:\lists\blocklist.txt" -allowlistpath "c:\lists\allowlist.txt" -QueryDays 365 -BanAttempts 30
+CreateBlockList.ps1 -databasepath C:\CWC\App_Data\Security.db -blocklistpath "c:\lists\blocklist.txt" -allowlistpath "c:\lists\allowlist.txt" -QueryDays 365 -BanAttempts 30
 ```
